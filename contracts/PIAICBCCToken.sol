@@ -15,7 +15,7 @@ interface IERC20 {
     /**
      * @dev Moves `amount` tokens from the caller's account to `recipient`.
      *
-     * Returns a boolean value indicating whether the operation succeeded.
+     * Returns a boolean value indicat
      *
      * Emits a {Transfer} event.
      */
