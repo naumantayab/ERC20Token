@@ -233,7 +233,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ninterface ERC20TokenInterface {\n    function totalSupply() external view returns (uint);\n    function name() external view returns (string memory);\n    function symbol() external view returns (string memory);\n    function decimals() external view returns (uint);\n    function balanceOf(address tokenOwner) external view returns (uint256);\n    function allowance(address tokenOwner, address spender) external view returns (uint remaining);\n    function transfer(address to, uint tokens) external returns (bool success);\n    function approve(address spender, uint tokens) external returns (bool success);\n    function transferFrom(address from, address to, uint tokens) external returns (bool success);\n\n    event Transfer(address indexed from, address indexed to, uint tokens);\n    event Approval(address indexed tokenOwner, address indexed spender, uint tokens);\n}",
-  "sourcePath": "D:\\PIAIC Bootcamp (BCC)\\Truffle\\ERC20Token\\contracts\\IERC20.sol",
+  "sourcePath": "D:\\PIAIC Bootcamp (BCC)\\Truffle Projects\\ERC20Token\\contracts\\IERC20.sol",
   "ast": {
     "absolutePath": "project:/contracts/IERC20.sol",
     "exportedSymbols": {
@@ -2210,7 +2210,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-08-24T17:33:45.948Z",
+  "updatedAt": "2021-09-06T13:14:29.406Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
